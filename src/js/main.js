@@ -10,6 +10,6 @@ $('div').click(function() {
 
 // console.log($('div').eq(2).find('.more'));
 // console.log($('.some').closest('.findMe'));
-console.log($('.more').eq(0).siblings());
+$('button').fadeIn(1800);
 
 // console.log($('button').html('Hello!'));
