@@ -9,21 +9,102 @@
   </head>
   <body>
     <div class="container">
-      <button class="btn btn-primary m20" id="first">Fade out first text</button>
-      <button class="btn btn-dark m20" data-count="second">Fade out second text</button>
+      <button class="btn btn-primary m20" id="first">
+        Fade out first text
+      </button>
+      <button class="btn btn-dark m20" data-count="second">
+        Fade out second text
+      </button>
       <button class="btn btn-warning m20">Fade out all text</button>
 
-      <!-- <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" id="dropdownMenuBtn">Dropdown button</button>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" id="dropdownMenuBtn">
+          Dropdown button
+        </button>
         <div class="dropdown-menu" data-toggle-id="dropdownMenuBtn">
           <a href="#" class="dropdown-item">Action #1</a>
           <a href="#" class="dropdown-item">Action #2</a>
           <a href="#" class="dropdown-item">Action #3</a>
         </div>
-      </div> -->
+      </div>
 
-      <div class="wrap">
-        
+      <!-- <div class="wrap"></div> -->
+
+      <div class="goods d-flex f-space-around">
+        <div class="card">
+          <img
+            class="card-img"
+            src="https://picsum.photos/1200/800"
+            alt="photo"
+          />
+          <div class="card-body">
+            <div class="card-title">Card title</div>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis id
+              odit aliquid amet, aperiam corporis
+            </p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#example-modal">Link to</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="card-img"
+            src="https://picsum.photos/1200/800"
+            alt="photo"
+          />
+          <div class="card-body">
+            <div class="card-title">Card title #2</div>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis id
+              odit aliquid amet, aperiam corporis
+            </p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#example-modal2">Link to</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="example-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button class="close" data-close>
+              <span>&times;</span>
+            </button>
+            <div class="modal-header">
+              <div class="modal-title">Modal title</div>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui
+              iure consequatur, recusandae nihil quae autem, praesentium totam
+              eum sint vitae dicta eligendi dolorem nulla tenetur saepe, sunt
+              repellat beatae.
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-danger" data-close>Close</button>
+              <button class="btn btn-success">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal #2" id="example-modal2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button class="close" data-close>
+              <span>&times;</span>
+            </button>
+            <div class="modal-header">
+              <div class="modal-title">Modal title</div>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-danger" data-close>Close</button>
+              <button class="btn btn-success">Save changes</button>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
